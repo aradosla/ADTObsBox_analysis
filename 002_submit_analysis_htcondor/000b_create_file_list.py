@@ -30,7 +30,7 @@ if sample_files:
   sample_freq = 60 #in sec
 
 # Fill nb
-fill_nb = 8469
+fill_nb = 8496
 
 save_to = f"filenames_Fill{fill_nb}.parquet" 
 
@@ -53,6 +53,7 @@ if read_fill_info:
   
   df_current = df_fills[df_fills['HX:FILLN'] == str(fill_nb)]
   #print(df_current)
+  #quit()
   t1 = pd.Timestamp(df_current[df_current['HX:BMODE'] == 'INJPHYS'].index[0], tz='UTC')
   t2 = pd.Timestamp(df_current[df_current['HX:BMODE'] == 'BEAMDUMP'].index[0], tz='UTC')
 
