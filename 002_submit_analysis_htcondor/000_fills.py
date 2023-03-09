@@ -39,8 +39,8 @@ sk  = nx.SparkIt(spark)
 logging.info('Spark instance created.')
 
 
-t0 = pd.Timestamp('2022-11-27 00:00:13', tz='CET')
-t1 = pd.Timestamp('2022-11-28 16:00', tz='CET')
+t0 = pd.Timestamp('2022-10-23 00:00:13', tz='CET')
+t1 = pd.Timestamp('2022-12-02 16:00', tz='CET')
 #t1 = pd.Timestamp.now(tz='CET')
 
 df = sk.nxcals_df(["HX:FILLN", "HX:BMODE", "LHC.BQM.B%:NO_BUNCHES"], 

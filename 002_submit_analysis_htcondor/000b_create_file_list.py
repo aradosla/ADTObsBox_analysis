@@ -17,11 +17,11 @@ path = 'ADTObsBox_data'
 
 # Simplify the search of files
 #day  = "*" # in CET
-day  = "23" # in CET
+day  = "9" # in CET
 ##time = "*" 
 time = "*" 
 #beamplane = "*"#"*"
-beamplane = "B2V"#"*"
+beamplane = "B1H"#"*"
 pu        = "Q7"#"*"
 
 # Subsample 
@@ -30,17 +30,18 @@ if sample_files:
   sample_freq = 60 #in sec
 
 # Fill nb
-fill_nb = 8496
+fill_nb = 8469
 
 save_to = f"filenames_Fill{fill_nb}.parquet" 
 
 # If true, will search in fill.parquet for t1-t2. otherwise, user can define t1-t2 manually
 read_fill_info = True
 
-#mysymbolic_link = "sshfs skostogl@cs-ccr-dev1.cern.ch:/nfs/cfc-sr4-adtobs2buf/obsbox/slow {path} -o IdentityFile=/afs/cern.ch/user/s/skostogl/.ssh/id_rsa"
+#mysymbolic_link = f"sshfs aradosla@cs-ccr-dev1.cern.ch:/nfs/cfc-sr4-adtobs2buf/obsbox/slow {path} -o IdentityFile=/afs/cern.ch/user/a/aradosla/.ssh/id_rsa"
 #file_format = f"{path}/{beamplane}_{pu}/{day}/{time}/*"
+
 #mysymbolic_link = f"sshfs skostogl@lxplus.cern.ch:/eos/project/l/lhc-lumimod/MD7003/ADTObsBox/data_Fill8470 {path} -o IdentityFile=/afs/cern.ch/user/s/skostogl/.ssh/id_rsa"
-mysymbolic_link = f"sshfs skostogl@lxplus.cern.ch:/eos/project/l/lhc-lumimod/MD7003/ADTObsBox/data_Fill8469_copy {path} -o IdentityFile=/afs/cern.ch/user/s/skostogl/.ssh/id_rsa"
+mysymbolic_link = f"sshfs aradosla@lxplus.cern.ch:/eos/user/s/skostogl/data_Fill8469 {path} -o IdentityFile=/afs/cern.ch/user/a/aradosla/.ssh/id_rsa"
 file_format = f"{path}/{beamplane}_{pu}*"
 
 if read_fill_info:
@@ -58,8 +59,8 @@ if read_fill_info:
   t2 = pd.Timestamp(df_current[df_current['HX:BMODE'] == 'BEAMDUMP'].index[0], tz='UTC')
 
 else:
-  t1 = pd.Timestamp('2022-11-05 20:10', tz='UTC')
-  t2 = pd.Timestamp('2022-11-05 20:50', tz='UTC')
+  t1 = pd.Timestamp('2023-03-09 09:00', tz='UTC')
+  t2 = pd.Timestamp('2023-03-09 09:10', tz='UTC')
 
 print(f"Time range considered (UTC): {t1}-{t2}")
 

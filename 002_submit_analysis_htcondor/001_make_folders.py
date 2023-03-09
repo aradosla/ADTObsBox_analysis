@@ -15,13 +15,14 @@ from pathlib import Path
 
 config=yaml.safe_load(open('config.yaml'))
 
+path = 'ADTObsBox_data'
 fillnb = 8469
 study_name = f"Fill{fillnb}"
-save_to = "/eos/user/s/skostogl/analysis_test"
+save_to = "/eos/user/a/aradosla/FFTs" #"/eos/user/s/skostogl/analysis_test"
 
 Path(save_to).mkdir(parents=True, exist_ok=True)
 
-mypython = "/afs/cern.ch/work/s/skostogl/private/workspaces/HLLHC_xsuite_Jul22/example_DA_study/miniconda/bin/activate"
+mypython = "/afs/cern.ch/work/a/aradosla/private/miniforge3/bin/activate"
 
 
 filenames = pd.read_parquet(f"filenames_{study_name}.parquet").filenames.values
@@ -32,7 +33,9 @@ bunch_nb_b1 = ['all']
 bunch_nb_b2 = ['all']
 
 make_path = 'ADTObsBox_data'
-mysymbolic_link = f"sshfs skostogl@lxplus.cern.ch:/eos/project/l/lhc-lumimod/MD7003/ADTObsBox/data_Fill8469_copy {make_path} -o IdentityFile=/afs/cern.ch/user/s/skostogl/.ssh/id_rsa"
+
+#mysymbolic_link = f"sshfs skostogl@lxplus.cern.ch:/eos/project/l/lhc-lumimod/MD7003/ADTObsBox/data_Fill8469_copy {make_path} -o IdentityFile=/afs/cern.ch/user/s/skostogl/.ssh/id_rsa"
+mysymbolic_link = f"sshfs aradosla@lxplus.cern.ch:/eos/user/s/skostogl/data_Fill8469 {path} -o IdentityFile=/afs/cern.ch/user/a/aradosla/.ssh/id_rsa"
 
 children={}
 for child in range(len(filenames_in_chunks)):

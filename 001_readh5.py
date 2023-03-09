@@ -17,11 +17,12 @@ fourier_tot_real, fourier_tot_imag, fourier_tot_real_corr, fourier_tot_imag_corr
 
 repeat_fft = 3
 frev = 11245.5
+which_bunch_b1 = [12, 13, 14]
 #which_bunch_b1 = [712, 1421, 2131, 2842, 3552] 
 #which_bunch_b1 = [355, 712, 1066, 1421, 1776, 2131, 2486, 2842, 3197, 3353]
 #which_bunch_b1 = [178, 355, 533, 712, 888, 1066, 1242, 1421, 1596, 1776, 1954, 2131, 2309, 2486, 2787, 2842, 3019, 3197, 3353, 3353]
 #which_bunch_b1 = [1184, 2368, 3353]
-which_bunch_b1 = 'all'
+#which_bunch_b1 = 'all'
 which_bunch_b2 = 'all'
 
 for beamplane in myDict.keys():
