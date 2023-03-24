@@ -1,0 +1,146 @@
+
+>>> Loading nx2pd.py version of 24.10.2022 @ 03:17PM
+
+Assuming that your kerberos keytab is in the home folder, its name is "aradosla.keytab" and that your kerberos login is "aradosla".
+INFO:root:Executing the kinit
+INFO:root:Creating the spark instance
+Trying to determine YARN usage to make Python work correctly (conf/spark-env.sh)...
+Not using YARN
+Using virtual venv 
+PYSPARK_PYTHON == /afs/cern.ch/work/a/aradosla/private/miniforge3/bin/python
+PYSPARK_DRIVER_PYTHON == /afs/cern.ch/work/a/aradosla/private/miniforge3/bin/python
+PYSPARK_DRIVER_PYTHON_OPTS == 
+INFO:root:Spark instance created.
+8305 B1H
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1666476014091457000     None  ...                  None
+1666476014091734000     None  ...                  2462
+1666476015191453000     None  ...                  None
+1666476015191732000     None  ...                  2462
+1666476016291448000     None  ...                  None
+...                      ...  ...                   ...
+1666532000691753000     None  ...                     0
+1666532001791439000     None  ...                  None
+1666532001791747000     None  ...                     0
+1666532002891435000     None  ...                  None
+1666532002891744000     None  ...                     0
+
+[101799 rows x 4 columns]
+1666478613082238525    BEAMDUMP
+1666478907370238525    RAMPDOWN
+1666480333650863525       SETUP
+1666482729058988525     INJPROB
+1666483083618863525     INJPHYS
+1666484674991863525     PRERAMP
+1666484926825988525        RAMP
+1666486206480238525     FLATTOP
+1666486215030988525     SQUEEZE
+1666486737316738525      ADJUST
+1666487174259613525      STABLE
+1666531659504238525    BEAMDUMP
+1666531667523988525    BEAMDUMP
+1666531669407238525    RAMPDOWN
+Name: HX:BMODE, dtype: object 913
+2022-10-22 23:58:03.618863525 2022-10-22 22:43:33.082238525 time range
+empty df
+8305 B1V
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1666476014091457000     None  ...                  None
+1666476014091734000     None  ...                  2462
+1666476015191453000     None  ...                  None
+1666476015191732000     None  ...                  2462
+1666476016291448000     None  ...                  None
+...                      ...  ...                   ...
+1666532000691753000     None  ...                     0
+1666532001791439000     None  ...                  None
+1666532001791747000     None  ...                     0
+1666532002891435000     None  ...                  None
+1666532002891744000     None  ...                     0
+
+[101799 rows x 4 columns]
+1666478613082238525    BEAMDUMP
+1666478907370238525    RAMPDOWN
+1666480333650863525       SETUP
+1666482729058988525     INJPROB
+1666483083618863525     INJPHYS
+1666484674991863525     PRERAMP
+1666484926825988525        RAMP
+1666486206480238525     FLATTOP
+1666486215030988525     SQUEEZE
+1666486737316738525      ADJUST
+1666487174259613525      STABLE
+1666531659504238525    BEAMDUMP
+1666531667523988525    BEAMDUMP
+1666531669407238525    RAMPDOWN
+Name: HX:BMODE, dtype: object 913
+2022-10-22 23:58:03.618863525 2022-10-22 22:43:33.082238525 time range
+empty df
+8305 B2H
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1666476014091457000     None  ...                  None
+1666476014091734000     None  ...                  2462
+1666476015191453000     None  ...                  None
+1666476015191732000     None  ...                  2462
+1666476016291448000     None  ...                  None
+...                      ...  ...                   ...
+1666532000691753000     None  ...                     0
+1666532001791439000     None  ...                  None
+1666532001791747000     None  ...                     0
+1666532002891435000     None  ...                  None
+1666532002891744000     None  ...                     0
+
+[101799 rows x 4 columns]
+1666478613082238525    BEAMDUMP
+1666478907370238525    RAMPDOWN
+1666480333650863525       SETUP
+1666482729058988525     INJPROB
+1666483083618863525     INJPHYS
+1666484674991863525     PRERAMP
+1666484926825988525        RAMP
+1666486206480238525     FLATTOP
+1666486215030988525     SQUEEZE
+1666486737316738525      ADJUST
+1666487174259613525      STABLE
+1666531659504238525    BEAMDUMP
+1666531667523988525    BEAMDUMP
+1666531669407238525    RAMPDOWN
+Name: HX:BMODE, dtype: object 913
+2022-10-22 23:58:03.618863525 2022-10-22 22:43:33.082238525 time range
+empty df
+8305 B2V
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1666476014091457000     None  ...                  None
+1666476014091734000     None  ...                  2462
+1666476015191453000     None  ...                  None
+1666476015191732000     None  ...                  2462
+1666476016291448000     None  ...                  None
+...                      ...  ...                   ...
+1666532000691753000     None  ...                     0
+1666532001791439000     None  ...                  None
+1666532001791747000     None  ...                     0
+1666532002891435000     None  ...                  None
+1666532002891744000     None  ...                     0
+
+[101799 rows x 4 columns]
+1666478613082238525    BEAMDUMP
+1666478907370238525    RAMPDOWN
+1666480333650863525       SETUP
+1666482729058988525     INJPROB
+1666483083618863525     INJPHYS
+1666484674991863525     PRERAMP
+1666484926825988525        RAMP
+1666486206480238525     FLATTOP
+1666486215030988525     SQUEEZE
+1666486737316738525      ADJUST
+1666487174259613525      STABLE
+1666531659504238525    BEAMDUMP
+1666531667523988525    BEAMDUMP
+1666531669407238525    RAMPDOWN
+Name: HX:BMODE, dtype: object 913
+2022-10-22 23:58:03.618863525 2022-10-22 22:43:33.082238525 time range
+empty df
+prob
+prob
+prob
+prob
+INFO:py4j.clientserver:Closing down clientserver connection

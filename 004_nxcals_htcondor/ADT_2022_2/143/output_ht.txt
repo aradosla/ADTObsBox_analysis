@@ -1,0 +1,98 @@
+
+>>> Loading nx2pd.py version of 24.10.2022 @ 03:17PM
+
+Assuming that your kerberos keytab is in the home folder, its name is "aradosla.keytab" and that your kerberos login is "aradosla".
+INFO:root:Executing the kinit
+INFO:root:Creating the spark instance
+Trying to determine YARN usage to make Python work correctly (conf/spark-env.sh)...
+Not using YARN
+Using virtual venv 
+PYSPARK_PYTHON == /afs/cern.ch/work/a/aradosla/private/miniforge3/bin/python
+PYSPARK_DRIVER_PYTHON == /afs/cern.ch/work/a/aradosla/private/miniforge3/bin/python
+PYSPARK_DRIVER_PYTHON_OPTS == 
+INFO:root:Spark instance created.
+8448 B1H
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1668999029371363525     None  ...                  None
+1668999029991460000     None  ...                  None
+1668999029991736000     None  ...                     0
+1668999031091458000     None  ...                  None
+1668999031091726000     None  ...                     0
+...                      ...  ...                   ...
+1668999945591704000     None  ...                     0
+1668999946691518000     None  ...                  None
+1668999946691704000     None  ...                     0
+1668999947791515000     None  ...                  None
+1668999947791701000     None  ...                     0
+
+[1671 rows x 4 columns]
+1668999055924738525    INJPROB
+1668999581532238525    INJPHYS
+Name: HX:BMODE, dtype: object 1
+2022-11-21 02:59:41.532238525 2022-11-21 02:59:41.532238525 time range
+empty df
+8448 B1V
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1668999029371363525     None  ...                  None
+1668999029991460000     None  ...                  None
+1668999029991736000     None  ...                     0
+1668999031091458000     None  ...                  None
+1668999031091726000     None  ...                     0
+...                      ...  ...                   ...
+1668999945591704000     None  ...                     0
+1668999946691518000     None  ...                  None
+1668999946691704000     None  ...                     0
+1668999947791515000     None  ...                  None
+1668999947791701000     None  ...                     0
+
+[1671 rows x 4 columns]
+1668999055924738525    INJPROB
+1668999581532238525    INJPHYS
+Name: HX:BMODE, dtype: object 1
+2022-11-21 02:59:41.532238525 2022-11-21 02:59:41.532238525 time range
+empty df
+8448 B2H
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1668999029371363525     None  ...                  None
+1668999029991460000     None  ...                  None
+1668999029991736000     None  ...                     0
+1668999031091458000     None  ...                  None
+1668999031091726000     None  ...                     0
+...                      ...  ...                   ...
+1668999945591704000     None  ...                     0
+1668999946691518000     None  ...                  None
+1668999946691704000     None  ...                     0
+1668999947791515000     None  ...                  None
+1668999947791701000     None  ...                     0
+
+[1671 rows x 4 columns]
+1668999055924738525    INJPROB
+1668999581532238525    INJPHYS
+Name: HX:BMODE, dtype: object 1
+2022-11-21 02:59:41.532238525 2022-11-21 02:59:41.532238525 time range
+empty df
+8448 B2V
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1668999029371363525     None  ...                  None
+1668999029991460000     None  ...                  None
+1668999029991736000     None  ...                     0
+1668999031091458000     None  ...                  None
+1668999031091726000     None  ...                     0
+...                      ...  ...                   ...
+1668999945591704000     None  ...                     0
+1668999946691518000     None  ...                  None
+1668999946691704000     None  ...                     0
+1668999947791515000     None  ...                  None
+1668999947791701000     None  ...                     0
+
+[1671 rows x 4 columns]
+1668999055924738525    INJPROB
+1668999581532238525    INJPHYS
+Name: HX:BMODE, dtype: object 1
+2022-11-21 02:59:41.532238525 2022-11-21 02:59:41.532238525 time range
+empty df
+prob
+prob
+prob
+prob
+INFO:py4j.clientserver:Closing down clientserver connection

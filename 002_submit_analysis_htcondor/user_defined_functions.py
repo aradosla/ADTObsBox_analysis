@@ -21,9 +21,9 @@ def generate_run_sh_htc(node, generation_number):
            f'ls\n'
            f'pwd\n'
            f'mkdir {node.root.parameters["make_path"]}\n'
-           f'{node.root.parameters["symbolic_link"]}\n'
+           #f'{node.root.parameters["symbolic_link"]}\n'
            f'python {python_command} > output_ht.txt 2> error_ht.txt\n'
-           f'cp -rf log* {node.get_abs_path()}\n')
+           f'cp -rf *ht.txt log* {node.get_abs_path()}\n')
    else:
    	return (f'#!/bin/bash\n'
            f'source {node.root.parameters["setup_env_script"]}\n'

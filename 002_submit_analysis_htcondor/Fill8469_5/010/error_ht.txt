@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/pool/condor/dir_24392/run_analysis.py", line 134, in <module>
+    df2.to_parquet(f"{destination}")
+  File "/afs/cern.ch/work/a/aradosla/private/miniforge3/lib/python3.10/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/afs/cern.ch/work/a/aradosla/private/miniforge3/lib/python3.10/site-packages/pandas/core/frame.py", line 2976, in to_parquet
+    return to_parquet(
+  File "/afs/cern.ch/work/a/aradosla/private/miniforge3/lib/python3.10/site-packages/pandas/io/parquet.py", line 430, in to_parquet
+    impl.write(
+  File "/afs/cern.ch/work/a/aradosla/private/miniforge3/lib/python3.10/site-packages/pandas/io/parquet.py", line 176, in write
+    path_or_handle, handles, kwargs["filesystem"] = _get_path_or_handle(
+  File "/afs/cern.ch/work/a/aradosla/private/miniforge3/lib/python3.10/site-packages/pandas/io/parquet.py", line 102, in _get_path_or_handle
+    handles = get_handle(
+  File "/afs/cern.ch/work/a/aradosla/private/miniforge3/lib/python3.10/site-packages/pandas/io/common.py", line 734, in get_handle
+    check_parent_directory(str(handle))
+  File "/afs/cern.ch/work/a/aradosla/private/miniforge3/lib/python3.10/site-packages/pandas/io/common.py", line 596, in check_parent_directory
+    if not parent.is_dir():
+  File "/afs/cern.ch/work/a/aradosla/private/miniforge3/lib/python3.10/pathlib.py", line 1305, in is_dir
+    return S_ISDIR(self.stat().st_mode)
+  File "/afs/cern.ch/work/a/aradosla/private/miniforge3/lib/python3.10/pathlib.py", line 1097, in stat
+    return self._accessor.stat(self, follow_symlinks=follow_symlinks)
+OSError: [Errno 5] Input/output error: '/eos/user/a/aradosla/FFTs/Fill8469_5'

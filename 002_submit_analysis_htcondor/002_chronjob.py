@@ -1,9 +1,3 @@
-# %%
-"""
-Example of a chronjob
-"""
-
-# %%
 
 import pdb
 import pandas as pd
@@ -35,7 +29,7 @@ from pathlib import Path
 #    for node in root.descendants:
 #        if node.has_not_been(operation):
 #            print(node.get_absolute_path())
-
+#json = 'tree_maker_Fill8469_3.json'
 class cluster():
     def __init__(self, run_on='local_pc'):
        if run_on in ['local_pc', 'htc', 'slurm']:
@@ -150,7 +144,7 @@ class cluster():
 # %%
 # Load the tree from a yaml
 if __name__=='__main__':
-    root = tree_maker.tree_from_json('tree_maker_Fill8469.json')
+    root = tree_maker.tree_from_json('tree_maker_Fill8469_11.json')
     if root.has_been('completed'):
         print('All descendants of root are completed!')
     else:

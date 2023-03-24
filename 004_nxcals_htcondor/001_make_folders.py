@@ -15,7 +15,7 @@ from user_defined_functions import generate_run_sh_htc
 # Import the configuration
 config=yaml.safe_load(open('config.yaml'))
 
-fills_path  = "/afs/cern.ch/work/s/skostogl/private/adt_nxcals/fills.parquet"
+fills_path  = "/afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor/fills.parquet"
 
 fill_nb_s   = pd.read_parquet(fills_path)["HX:FILLN"].dropna().unique()
 
@@ -26,8 +26,8 @@ all_jobs = np.array([i for i in all_jobs])
 all_jobs_split =np.array([all_jobs[i:i + chunks_per_job, :] for i in range(0, len(all_jobs), chunks_per_job)])
 
 study_name        = "ADT_2022_2"
-save_plots_to_eos = "/eos/user/s/skostogl/ADTObsBox_2022_nxcals"
-mypython          = "/afs/cern.ch/work/s/skostogl/private/workspaces/HLLHC_xsuite_Jul22/example_DA_study/miniconda/bin/activate"
+save_plots_to_eos = "/eos/user/a/aradosla/SWAN_projects/Analysis/ADTObsBox_analysis/results_nxcals"
+mypython          = "/afs/cern.ch/work/a/aradosla/private/miniforge3/bin/activate"
 
 children={}
 for child in range(len(all_jobs_split)):

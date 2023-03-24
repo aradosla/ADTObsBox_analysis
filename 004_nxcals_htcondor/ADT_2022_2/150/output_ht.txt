@@ -1,0 +1,1258 @@
+
+>>> Loading nx2pd.py version of 24.10.2022 @ 03:17PM
+
+Assuming that your kerberos keytab is in the home folder, its name is "aradosla.keytab" and that your kerberos login is "aradosla".
+INFO:root:Executing the kinit
+INFO:root:Creating the spark instance
+Trying to determine YARN usage to make Python work correctly (conf/spark-env.sh)...
+Not using YARN
+Using virtual venv 
+PYSPARK_PYTHON == /afs/cern.ch/work/a/aradosla/private/miniforge3/bin/python
+PYSPARK_DRIVER_PYTHON == /afs/cern.ch/work/a/aradosla/private/miniforge3/bin/python
+PYSPARK_DRIVER_PYTHON_OPTS == 
+INFO:root:Spark instance created.
+8455 B1H
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1669011747474488525     None  ...                  None
+1669011748391509000     None  ...                  None
+1669011748391765000     None  ...                     0
+1669011749491507000     None  ...                  None
+1669011749491765000     None  ...                     0
+...                      ...  ...                   ...
+1669023971591692000     None  ...                     0
+1669023972691522000     None  ...                  None
+1669023972691688000     None  ...                     0
+1669023973791520000     None  ...                  None
+1669023973791686000     None  ...                     0
+
+[22214 rows x 4 columns]
+1669011767867613525    INJPROB
+1669012883486613525    INJPHYS
+1669013591677613525    INJPROB
+1669014262542488525    INJPHYS
+1669015453690863525    INJPROB
+1669015813564238525    INJPHYS
+1669018359844863525    INJPROB
+1669018643544863525    INJPHYS
+1669020781500363525      SETUP
+1669021363287988525    INJPROB
+1669022658575488525    INJPHYS
+Name: HX:BMODE, dtype: object 84
+2022-11-21 06:41:23.486613525 2022-11-21 09:24:18.575488525 time range
+['ObsBox2Spectrum.LHC.ADT.REAL.B1H.Q7:acquisitionCorrected:acquisition'] 2022-11-21 06:41:23.486613525 2022-11-21 07:41:23.486613525
+['ObsBox2Spectrum.LHC.ADT.REAL.B1H.Q7:acquisitionCorrected:acquisition'] 2022-11-21 07:41:23.486613525 2022-11-21 08:41:23.486613525
+['ObsBox2Spectrum.LHC.ADT.REAL.B1H.Q7:acquisitionCorrected:acquisition'] 2022-11-21 08:41:23.486613525 2022-11-21 09:24:18.575488525
+2022-11-21 06:42:12.207523 2022-11-21 09:23:12.111769
+8455 B1V
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1669011747474488525     None  ...                  None
+1669011748391509000     None  ...                  None
+1669011748391765000     None  ...                     0
+1669011749491507000     None  ...                  None
+1669011749491765000     None  ...                     0
+...                      ...  ...                   ...
+1669023971591692000     None  ...                     0
+1669023972691522000     None  ...                  None
+1669023972691688000     None  ...                     0
+1669023973791520000     None  ...                  None
+1669023973791686000     None  ...                     0
+
+[22214 rows x 4 columns]
+1669011767867613525    INJPROB
+1669012883486613525    INJPHYS
+1669013591677613525    INJPROB
+1669014262542488525    INJPHYS
+1669015453690863525    INJPROB
+1669015813564238525    INJPHYS
+1669018359844863525    INJPROB
+1669018643544863525    INJPHYS
+1669020781500363525      SETUP
+1669021363287988525    INJPROB
+1669022658575488525    INJPHYS
+Name: HX:BMODE, dtype: object 84
+2022-11-21 06:41:23.486613525 2022-11-21 09:24:18.575488525 time range
+['ObsBox2Spectrum.LHC.ADT.REAL.B1V.Q7:acquisitionCorrected:acquisition'] 2022-11-21 06:41:23.486613525 2022-11-21 07:41:23.486613525
+['ObsBox2Spectrum.LHC.ADT.REAL.B1V.Q7:acquisitionCorrected:acquisition'] 2022-11-21 07:41:23.486613525 2022-11-21 08:41:23.486613525
+['ObsBox2Spectrum.LHC.ADT.REAL.B1V.Q7:acquisitionCorrected:acquisition'] 2022-11-21 08:41:23.486613525 2022-11-21 09:24:18.575488525
+2022-11-21 06:41:31.224115 2022-11-21 09:23:27.283760
+8455 B2H
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1669011747474488525     None  ...                  None
+1669011748391509000     None  ...                  None
+1669011748391765000     None  ...                     0
+1669011749491507000     None  ...                  None
+1669011749491765000     None  ...                     0
+...                      ...  ...                   ...
+1669023971591692000     None  ...                     0
+1669023972691522000     None  ...                  None
+1669023972691688000     None  ...                     0
+1669023973791520000     None  ...                  None
+1669023973791686000     None  ...                     0
+
+[22214 rows x 4 columns]
+1669011767867613525    INJPROB
+1669012883486613525    INJPHYS
+1669013591677613525    INJPROB
+1669014262542488525    INJPHYS
+1669015453690863525    INJPROB
+1669015813564238525    INJPHYS
+1669018359844863525    INJPROB
+1669018643544863525    INJPHYS
+1669020781500363525      SETUP
+1669021363287988525    INJPROB
+1669022658575488525    INJPHYS
+Name: HX:BMODE, dtype: object 84
+2022-11-21 06:41:23.486613525 2022-11-21 09:24:18.575488525 time range
+['ObsBox2Spectrum.LHC.ADT.REAL.B2H.Q7:acquisitionCorrected:acquisition'] 2022-11-21 06:41:23.486613525 2022-11-21 07:41:23.486613525
+['ObsBox2Spectrum.LHC.ADT.REAL.B2H.Q7:acquisitionCorrected:acquisition'] 2022-11-21 07:41:23.486613525 2022-11-21 08:41:23.486613525
+['ObsBox2Spectrum.LHC.ADT.REAL.B2H.Q7:acquisitionCorrected:acquisition'] 2022-11-21 08:41:23.486613525 2022-11-21 09:24:18.575488525
+2022-11-21 06:41:42.258908 2022-11-21 09:23:42.144558
+8455 B2V
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1669011747474488525     None  ...                  None
+1669011748391509000     None  ...                  None
+1669011748391765000     None  ...                     0
+1669011749491507000     None  ...                  None
+1669011749491765000     None  ...                     0
+...                      ...  ...                   ...
+1669023971591692000     None  ...                     0
+1669023972691522000     None  ...                  None
+1669023972691688000     None  ...                     0
+1669023973791520000     None  ...                  None
+1669023973791686000     None  ...                     0
+
+[22214 rows x 4 columns]
+1669011767867613525    INJPROB
+1669012883486613525    INJPHYS
+1669013591677613525    INJPROB
+1669014262542488525    INJPHYS
+1669015453690863525    INJPROB
+1669015813564238525    INJPHYS
+1669018359844863525    INJPROB
+1669018643544863525    INJPHYS
+1669020781500363525      SETUP
+1669021363287988525    INJPROB
+1669022658575488525    INJPHYS
+Name: HX:BMODE, dtype: object 84
+2022-11-21 06:41:23.486613525 2022-11-21 09:24:18.575488525 time range
+['ObsBox2Spectrum.LHC.ADT.REAL.B2V.Q7:acquisitionCorrected:acquisition'] 2022-11-21 06:41:23.486613525 2022-11-21 07:41:23.486613525
+['ObsBox2Spectrum.LHC.ADT.REAL.B2V.Q7:acquisitionCorrected:acquisition'] 2022-11-21 07:41:23.486613525 2022-11-21 08:41:23.486613525
+['ObsBox2Spectrum.LHC.ADT.REAL.B2V.Q7:acquisitionCorrected:acquisition'] 2022-11-21 08:41:23.486613525 2022-11-21 09:24:18.575488525
+2022-11-21 06:41:57.838451 2022-11-21 09:23:57.030901
+./FFT_8455_B1H_2022-11-21 06:42:12.207523_2022-11-21 09:23:12.111769.parquet
+                           ObsBox2Spectrum.LHC.ADT.REAL.B1H.Q7:acquisitionCorrected:acquisition
+2022-11-21 06:42:12.207523  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+2022-11-21 06:43:12.454349  [6425.640923817952, 39.60920628146071, 26.1544...                  
+2022-11-21 06:44:12.351303  [4407.958730061849, 13.756909538905239, 3.4211...                  
+2022-11-21 06:45:12.251318  [3111.457098642985, 14.420160985153238, 7.7090...                  
+2022-11-21 06:46:16.048645  [3138.8435668945312, 8.388559879245035, 14.101...                  
+...                                                                       ...                  
+2022-11-21 09:19:12.272237  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+2022-11-21 09:20:12.092981  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+2022-11-21 09:21:12.042641  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+2022-11-21 09:22:12.034976  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+2022-11-21 09:23:12.111769  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+
+[162 rows x 1 columns]
+                              HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+2022-11-21 06:22:27.474488525     None  ...                  None
+2022-11-21 06:22:28.391509000     None  ...                  None
+2022-11-21 06:22:28.391765000     None  ...                     0
+2022-11-21 06:22:29.491507000     None  ...                  None
+2022-11-21 06:22:29.491765000     None  ...                     0
+...                                ...  ...                   ...
+2022-11-21 09:46:11.591692000     None  ...                     0
+2022-11-21 09:46:12.691522000     None  ...                  None
+2022-11-21 09:46:12.691688000     None  ...                     0
+2022-11-21 09:46:13.791520000     None  ...                  None
+2022-11-21 09:46:13.791686000     None  ...                     0
+
+[22214 rows x 4 columns]
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+./FFT_8455_B2H_2022-11-21 06:41:42.258908_2022-11-21 09:23:42.144558.parquet
+                           ObsBox2Spectrum.LHC.ADT.REAL.B2H.Q7:acquisitionCorrected:acquisition
+2022-11-21 06:41:42.258908  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+2022-11-21 06:42:46.217961  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+2022-11-21 06:43:46.747530  [8234.385859171549, 2303.7953669597177, 1709.2...                  
+2022-11-21 06:44:42.499638  [8398.380669911703, 1727.3033178762807, 520.05...                  
+2022-11-21 06:45:45.901569  [1534.209898630778, 26.274769105671655, 48.034...                  
+...                                                                       ...                  
+2022-11-21 09:19:42.016018  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+2022-11-21 09:20:42.204715  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+2022-11-21 09:21:42.066692  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+2022-11-21 09:22:42.141816  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+2022-11-21 09:23:42.144558  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+
+[163 rows x 1 columns]
+                              HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+2022-11-21 06:22:27.474488525     None  ...                  None
+2022-11-21 06:22:28.391509000     None  ...                  None
+2022-11-21 06:22:28.391765000     None  ...                     0
+2022-11-21 06:22:29.491507000     None  ...                  None
+2022-11-21 06:22:29.491765000     None  ...                     0
+...                                ...  ...                   ...
+2022-11-21 09:46:11.591692000     None  ...                     0
+2022-11-21 09:46:12.691522000     None  ...                  None
+2022-11-21 09:46:12.691688000     None  ...                     0
+2022-11-21 09:46:13.791520000     None  ...                  None
+2022-11-21 09:46:13.791686000     None  ...                     0
+
+[22214 rows x 4 columns]
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+./FFT_8455_B1V_2022-11-21 06:41:31.224115_2022-11-21 09:23:27.283760.parquet
+                           ObsBox2Spectrum.LHC.ADT.REAL.B1V.Q7:acquisitionCorrected:acquisition
+2022-11-21 06:41:31.224115  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+2022-11-21 06:42:27.243347  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+2022-11-21 06:43:27.547477  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+2022-11-21 06:44:27.241307  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+2022-11-21 06:45:27.406205  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+...                                                                       ...                  
+2022-11-21 09:19:27.209351  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+2022-11-21 09:20:27.214985  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+2022-11-21 09:21:27.246243  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+2022-11-21 09:22:31.710358  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+2022-11-21 09:23:27.283760  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+
+[163 rows x 1 columns]
+                              HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+2022-11-21 06:22:27.474488525     None  ...                  None
+2022-11-21 06:22:28.391509000     None  ...                  None
+2022-11-21 06:22:28.391765000     None  ...                     0
+2022-11-21 06:22:29.491507000     None  ...                  None
+2022-11-21 06:22:29.491765000     None  ...                     0
+...                                ...  ...                   ...
+2022-11-21 09:46:11.591692000     None  ...                     0
+2022-11-21 09:46:12.691522000     None  ...                  None
+2022-11-21 09:46:12.691688000     None  ...                     0
+2022-11-21 09:46:13.791520000     None  ...                  None
+2022-11-21 09:46:13.791686000     None  ...                     0
+
+[22214 rows x 4 columns]
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+./FFT_8455_B2V_2022-11-21 06:41:57.838451_2022-11-21 09:23:57.030901.parquet
+                           ObsBox2Spectrum.LHC.ADT.REAL.B2V.Q7:acquisitionCorrected:acquisition
+2022-11-21 06:41:57.838451  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+2022-11-21 06:42:57.153117  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+2022-11-21 06:43:57.704950  [7957.249897003174, 25.289222132914702, 5.7694...                  
+2022-11-21 06:44:58.941886  [7416.855058034261, 94.99539816570953, 77.3345...                  
+2022-11-21 06:45:57.469395  [7564.764775594075, 19.24969170258523, 2.94871...                  
+...                                                                       ...                  
+2022-11-21 09:19:56.977965  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+2022-11-21 09:20:57.101395  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+2022-11-21 09:21:56.999402  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+2022-11-21 09:22:57.189864  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+2022-11-21 09:23:57.030901  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+
+[163 rows x 1 columns]
+                              HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+2022-11-21 06:22:27.474488525     None  ...                  None
+2022-11-21 06:22:28.391509000     None  ...                  None
+2022-11-21 06:22:28.391765000     None  ...                     0
+2022-11-21 06:22:29.491507000     None  ...                  None
+2022-11-21 06:22:29.491765000     None  ...                     0
+...                                ...  ...                   ...
+2022-11-21 09:46:11.591692000     None  ...                     0
+2022-11-21 09:46:12.691522000     None  ...                  None
+2022-11-21 09:46:12.691688000     None  ...                     0
+2022-11-21 09:46:13.791520000     None  ...                  None
+2022-11-21 09:46:13.791686000     None  ...                     0
+
+[22214 rows x 4 columns]
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+prob PRERAMP
+prob RAMP
+prob FLATTOP
+prob ADJUST
+prob STABLE
+INFO:py4j.clientserver:Closing down clientserver connection

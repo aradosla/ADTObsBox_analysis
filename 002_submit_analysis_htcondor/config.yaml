@@ -1,5 +1,5 @@
 'root':
-  setup_env_script: '/home/HPC/sterbini/2021_12_07/miniconda/bin/activate'
+  setup_env_script: '...'
   generations:
     1: # Launch the tracking
       job_folder: 'master_jobs/001_run_analysis'

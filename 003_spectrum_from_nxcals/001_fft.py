@@ -45,8 +45,8 @@ df_fills['HX:FILLN'] = df_fills['HX:FILLN'].ffill(axis=0)
 
 print(df_fills['HX:FILLN'].unique())
 
-fills = ["8496"]#df_fills['HX:FILLN'].unique()
-save_to = 'from_nxclals_spectrum'
+fills = ["8469"]#df_fills['HX:FILLN'].unique()
+save_to = 'from_nxcals_spectrum'
 
 try:
     os.makedirs(save_to)
@@ -72,8 +72,11 @@ for current_fill in fills:
 
           # split into 5h intervals if needed
           print(t0, t1)
-          t0 = pd.Timestamp("2022-11-27 21:01:07", tz='CET')
-          t1 = pd.Timestamp("2022-11-27 22:31:44", tz='CET')
+          #t0 = pd.Timestamp('2022-10-23 00:00:13', tz='CET')
+          #t1 = pd.Timestamp('2022-12-02 16:00', tz='CET')
+  
+          #t0 = pd.Timestamp("2022-10-23 09:01:07", tz='CET')
+          #t1 = pd.Timestamp("2022-11-27 22:31:44", tz='CET')
           print(t0,t1)
 
           interval = datetime.timedelta(minutes=60*1)
@@ -90,6 +93,7 @@ for current_fill in fills:
         data_list = [f"ObsBox2Spectrum.LHC.ADT.REAL.{beamplane}.Q7:acquisitionCorrected:acquisition"]
         appended_df = []
         for i in range(0, len(periods)):
+          print(f"hereeeee {i}")
           print(data_list,periods[i][0],periods[i][1])
           df = sk.nxcals_df(data_list,periods[i][0],periods[i][1],pandas_processing=[nx.pandas_get,nx.pandas_pivot,])
           appended_df.append(df)

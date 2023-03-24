@@ -28,37 +28,53 @@ params = {'xtick.labelsize': 20,
 #plt.rcParams['figure.dpi'] = 300
 plt.rcParams.update(params)
 #plt.rcParams.update(plt.rcParamsDefault)
-
+n = 200
 
 #filename = "FFT_6Jul_Q10_B1H.parquet"
 #filename = "FFT_6Jul_sampled1min_Q10_B1H.parquet"
-path = "/eos/home-s/skostogl/SWAN_projects/analysis_ADTObsBox"
-
-fill_nb = 7966
-for filename in [f"FFT_Fill{fill_nb}_Q10_B1H.parquet",
-                 f"FFT_Fill{fill_nb}_Q10_B1V.parquet",
-                 f"FFT_Fill{fill_nb}_Q10_B2H.parquet",
-                 f"FFT_Fill{fill_nb}_Q10_B2V.parquet"]:
+path = "/eos/user/a/aradosla/SWAN_projects/Analysis/ADTObsBox_analysis/results"
+#bunch_nb = 3
+bunch_nb = 5
+#bunch_nb = 11
+#bunch_nb = str(20)
+#bunch_nb = 'all'
+fill_nb = 8469
+for filename in [f"FFT_Fill{fill_nb}_Q7_B1H{bunch_nb}.parquet"]:#,
+                 #f"FFT_Fill{fill_nb}_Q10_B1V.parquet",
+                # f"FFT_Fill{fill_nb}_Q10_B2H.parquet",
+                # f"FFT_Fill{fill_nb}_Q10_B2V.parquet"]:
 
   #filename = "FFT_Fill7966_Q10_B2V.parquet"
   pu = filename.split("_")[-2]
   fill = filename.split("_")[1][4:]
-  print(fill)
+  print('fill = ', fill)
   beamplane = filename.split("_")[-1].split(".")[0]
   
   df = pd.read_parquet(f"{path}/{filename}")
   df.set_index("time", inplace=True)
-  save_to  = f"{path}/plots_{fill}_{beamplane}_{pu}"
+  save_to  = f"{path}/plots_{fill}_{beamplane}_{pu}_{bunch_nb}_zoom"
   from pathlib import Path
   Path(save_to).mkdir(parents=True, exist_ok=True)
   
-  my_df = pd.read_parquet(f'/eos/project/l/lhc-lumimod/LuminosityFollowUp/2022/HX:FILLN={fill}')
+  #my_df = pd.read_parquet(f'/eos/project/l/lhc-lumimod/LuminosityFollowUp/2022/HX:FILLN={fill}')
+  my_df = pd.read_parquet(f'/afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/fills.parquet')
   np.unique(my_df["HX:BMODE"].dropna())
+  #my_df = my_df[my_df["HX:FILLN"] == '8469']["HX:BMODE"].dropna()
   
-  dff = df
+
+
+  #my_df = pd.read_parquet("fills.parquet")
+  if my_df['HX:FILLN'].iloc[0] == None:
+    my_df['HX:FILLN'].iloc[0] = my_df['HX:FILLN'].dropna().iloc[0]
+  my_df['HX:FILLN'] = my_df['HX:FILLN'].ffill(axis=0)
+
+
+
+  dff = df.dropna()
+  dff['fourier'] = dff['fourier'].dropna()
+  print('dff[fourier]', dff['fourier'])
   
-  
-  for counter, ii in enumerate(range(0, 5000,200)):
+  for counter, ii in enumerate(range(0, 6000,n)):
   
   
       #for counter, ii in enumerate(range(0, 5000,200)):
@@ -77,13 +93,13 @@ for filename in [f"FFT_Fill{fill_nb}_Q10_B1H.parquet",
       #############
       #fourier_abs = np.array(dff.fourier_abs.to_list())
       
-      myfilter = (freqs>ii-10) & (freqs<ii+210) 
+      myfilter = (freqs>ii-10) & (freqs<ii+n+10) 
       #myfilter = (freqs>2980) & (freqs<3020)
       fig, ax = plt.subplots()
   
       
       
-      #plt.imshow(np.array(np.log10(fourier_abs)[:, myfilter]), aspect='auto', cmap='jet', extent=[freqs[myfilter][0], freqs[myfilter][-1], x_lims[0], x_lims[-1]])
+      plt.imshow(np.array(np.log10(fourier_abs)[:, myfilter]), aspect='auto', cmap='jet', extent=[freqs[myfilter][0], freqs[myfilter][-1], x_lims[0], x_lims[-1]])
       ##plt.imshow(np.array(np.log10(fourier_abs)[:, myfilter]), aspect='auto', cmap='jet')
       
       
@@ -113,11 +129,13 @@ for filename in [f"FFT_Fill{fill_nb}_Q10_B1H.parquet",
       plt.ylabel("UTC time")
       
       
+      my_df = my_df[my_df["HX:FILLN"] == '8469']
+
       
-      
-      for mode in ["PRERAMP", "RAMP", "FLATTOP", "ADJUST", "STABLE"]:#, "SQUEEZE", "STABLE"]:
+      for mode in ["RAMP", "FLATTOP", "ADJUST"]:#, "SQUEEZE", "STABLE"]:
           tt=pd.Timestamp(my_df[my_df["HX:BMODE"] == mode].iloc[0].name)
           plt.axhline(tt, c='k', lw=2)
+          print('tt', tt)
           plt.text(ii, tt, mode, c='k', fontsize=18)
   
       
@@ -125,15 +143,15 @@ for filename in [f"FFT_Fill{fill_nb}_Q10_B1H.parquet",
       
       fig.tight_layout()
       
-      fig.savefig(f"{save_to}/plot_{counter}_{ii}Hz_{ii+200}Hz.png")
+      fig.savefig(f"{save_to}/plot_{counter}_{ii}Hz_{ii+n+10}Hz.png")
       #fig.savefig(f"plots_MD_latest/plot_{counter}_{ii}Hz_{ii+200}Hz.png")
       
       plt.close("all")
   
-  dff = df
+  dff = df.dropna()
   
   
-  for counter, ii in enumerate(range(0, 5000,200)):
+  for counter, ii in enumerate(range(0, 5000, n)):
   
       #for counter, ii in enumerate(range(0, 5000,200)):
   
@@ -151,14 +169,14 @@ for filename in [f"FFT_Fill{fill_nb}_Q10_B1H.parquet",
       #############
       #fourier_abs = np.array(dff.fourier_abs.to_list())
       
-      myfilter = (freqs<11245.5-(ii-10)) & (freqs>11245.5-(ii+210))
+      myfilter = (freqs<11245.5-(ii-10)) & (freqs>11245.5-(ii+n+10))
       #myfilter = (freqs>2980) & (freqs<3020)
       fig, ax = plt.subplots()
   
       
       
       #plt.imshow(np.array(np.log10(fourier_abs)[:, myfilter]), aspect='auto', cmap='jet', extent=[freqs[myfilter][0], freqs[myfilter][-1], x_lims[0], x_lims[-1]])
-      ##plt.imshow(np.array(np.log10(fourier_abs)[:, myfilter]), aspect='auto', cmap='jet')
+      #plt.imshow(np.array(np.log10(fourier_abs)[:, myfilter]), aspect='auto', cmap='jet')
       
       
       plt.pcolormesh(freqs[myfilter], dff.index.values, np.array(np.log10(fourier_abs)[:, myfilter]), cmap='jet', shading='auto')
@@ -185,17 +203,19 @@ for filename in [f"FFT_Fill{fill_nb}_Q10_B1H.parquet",
       #plt.ylabel("UTC time 02/07/2022")
       plt.ylabel("UTC time")
   
-  
-      for mode in ["PRERAMP", "RAMP", "FLATTOP", "ADJUST", "STABLE"]:#, "SQUEEZE", "STABLE"]:
+      
+     
+      for mode in [ "RAMP", "FLATTOP", "ADJUST"]:#, "SQUEEZE", "STABLE"]:
           tt=pd.Timestamp(my_df[my_df["HX:BMODE"] == mode].iloc[0].name)
+          print(tt)
           plt.axhline(tt, c='k', lw=2)
-          plt.text(11245.5-(ii+210), tt, mode, c='k', fontsize=18)
+          plt.text(11245.5-(ii+n+10), tt, mode, c='k', fontsize=18)
       
   
       
       fig.tight_layout()
-      
-      fig.savefig(f"{save_to}/plot_{counter}.png")
+      fig.savefig(f"{save_to}/plot_{counter}_{11245.5-(ii+n+10)}Hz_{11245.5-ii}Hz.png")
+      #fig.savefig(f"{save_to}/plot_{counter}.png")
       #fig.savefig(f"plots_MD_latest/plot_{counter}_{ii}Hz_{ii+200}Hz.png")
       
       plt.close("all")

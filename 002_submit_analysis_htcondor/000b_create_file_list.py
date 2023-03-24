@@ -78,12 +78,12 @@ def find_beamplane(current_fileName):
 	return current_fileName.split('_')[-4].split("/")[-1]
 
 
+
 # Create symbolic link
 Path(path).mkdir(parents=True, exist_ok=True)
 subprocess.call(f"fusermount -u {path}", shell=True)
 print("Mounting NFS..")
 subprocess.call(f"{mysymbolic_link}", shell=True)
-
 
 print("Looking for files..")
 filenames = (glob.glob(file_format))
@@ -94,6 +94,7 @@ t1 = t1.tz_convert("CET")
 t2 = t2.tz_convert("CET")
 print(f"Selected files from {t1} to {t2} CET")
 print("")
+
 filenames_to_consider = np.array([i for i in filenames if (fromName2Timestamp(i.split("/")[-1])>=t1) and (fromName2Timestamp(i.split("/")[-1])<=t2)])
 print(f"Found {len(filenames_to_consider)} files fitting criteria")
 
@@ -122,6 +123,7 @@ if sample_files:
   print(f"Found {len(filenames_to_consider)} files after subsampling")
 
 pd.DataFrame({"filenames": filenames_to_consider}).to_parquet(save_to)
-
+print(t1, t2)
+print(filenames_to_consider)
 # Unmount
 #subprocess.call(f"fusermount -u {path}", shell=True)

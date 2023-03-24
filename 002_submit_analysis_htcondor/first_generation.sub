@@ -4,118 +4,118 @@ output = output.txt
 log  = log.txt
 transfer_output_files=config.yaml
 +JobFlavour  = "tomorrow"
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/000
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/000/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/000
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/000/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/001
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/001/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/001
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/001/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/002
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/002/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/002
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/002/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/003
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/003/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/003
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/003/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/004
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/004/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/004
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/004/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/005
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/005/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/005
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/005/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/006
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/006/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/006
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/006/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/007
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/007/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/007
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/007/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/008
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/008/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/008
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/008/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/009
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/009/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/009
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/009/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/010
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/010/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/010
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/010/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/011
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/011/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/011
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/011/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/012
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/012/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/012
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/012/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/013
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/013/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/013
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/013/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/014
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/014/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/014
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/014/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/015
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/015/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/015
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/015/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/016
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/016/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/016
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/016/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/017
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/017/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/017
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/017/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/018
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/018/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/018
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/018/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/019
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/019/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/019
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/019/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/020
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/020/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/020
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/020/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/021
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/021/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/021
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/021/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/022
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/022/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/022
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/022/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/023
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/023/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/023
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/023/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/024
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/024/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/024
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/024/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/025
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/025/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/025
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/025/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/026
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/026/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/026
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/026/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/027
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/027/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/027
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/027/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/028
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/028/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/028
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/028/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/029
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/029/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/029
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/029/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/030
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/030/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/030
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/030/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/031
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/031/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/031
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/031/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/032
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/032/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/032
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/032/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/033
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/033/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/033
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/033/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/034
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/034/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/034
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/034/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/035
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/035/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/035
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/035/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/036
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/036/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/036
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/036/run.sh
 queue
-initialdir = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/037
-executable = /afs/cern.ch/user/a/aradosla/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469/037/run.sh
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/037
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/037/run.sh
 queue
 #htc

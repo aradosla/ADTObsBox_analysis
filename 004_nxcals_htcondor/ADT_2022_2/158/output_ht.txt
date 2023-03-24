@@ -1,0 +1,134 @@
+
+>>> Loading nx2pd.py version of 24.10.2022 @ 03:17PM
+
+Assuming that your kerberos keytab is in the home folder, its name is "aradosla.keytab" and that your kerberos login is "aradosla".
+INFO:root:Executing the kinit
+INFO:root:Creating the spark instance
+Trying to determine YARN usage to make Python work correctly (conf/spark-env.sh)...
+Not using YARN
+Using virtual venv 
+PYSPARK_PYTHON == /afs/cern.ch/work/a/aradosla/private/miniforge3/bin/python
+PYSPARK_DRIVER_PYTHON == /afs/cern.ch/work/a/aradosla/private/miniforge3/bin/python
+PYSPARK_DRIVER_PYTHON_OPTS == 
+INFO:root:Spark instance created.
+8463 B1H
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1669138096849738525     None  ...                  None
+1669138097291757000     None  ...                     0
+1669138097291761000     None  ...                  None
+1669138098391752000     None  ...                     0
+1669138098391769000     None  ...                  None
+...                      ...  ...                   ...
+1669153049291722000     None  ...                     0
+1669153050391421000     None  ...                  None
+1669153050391717000     None  ...                     0
+1669153051491415000     None  ...                  None
+1669153051491712000     None  ...                     0
+
+[27170 rows x 4 columns]
+1669139463656238525       SETUP
+1669140786949738525     INJPROB
+1669145636543238525     INJPHYS
+1669151436064738525     PRERAMP
+1669151662736488525        RAMP
+1669152940795988525     FLATTOP
+1669152949742738525    BEAMDUMP
+1669152951565863525    RAMPDOWN
+Name: HX:BMODE, dtype: object 12
+2022-11-22 19:33:56.543238525 2022-11-22 21:35:49.742738525 time range
+['ObsBox2Spectrum.LHC.ADT.REAL.B1H.Q7:acquisitionCorrected:acquisition'] 2022-11-22 19:33:56.543238525 2022-11-22 20:33:56.543238525
+['ObsBox2Spectrum.LHC.ADT.REAL.B1H.Q7:acquisitionCorrected:acquisition'] 2022-11-22 20:33:56.543238525 2022-11-22 21:33:56.543238525
+['ObsBox2Spectrum.LHC.ADT.REAL.B1H.Q7:acquisitionCorrected:acquisition'] 2022-11-22 21:33:56.543238525 2022-11-22 21:35:49.742738525
+empty df
+8463 B1V
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1669138096849738525     None  ...                  None
+1669138097291757000     None  ...                     0
+1669138097291761000     None  ...                  None
+1669138098391752000     None  ...                     0
+1669138098391769000     None  ...                  None
+...                      ...  ...                   ...
+1669153049291722000     None  ...                     0
+1669153050391421000     None  ...                  None
+1669153050391717000     None  ...                     0
+1669153051491415000     None  ...                  None
+1669153051491712000     None  ...                     0
+
+[27170 rows x 4 columns]
+1669139463656238525       SETUP
+1669140786949738525     INJPROB
+1669145636543238525     INJPHYS
+1669151436064738525     PRERAMP
+1669151662736488525        RAMP
+1669152940795988525     FLATTOP
+1669152949742738525    BEAMDUMP
+1669152951565863525    RAMPDOWN
+Name: HX:BMODE, dtype: object 12
+2022-11-22 19:33:56.543238525 2022-11-22 21:35:49.742738525 time range
+['ObsBox2Spectrum.LHC.ADT.REAL.B1V.Q7:acquisitionCorrected:acquisition'] 2022-11-22 19:33:56.543238525 2022-11-22 20:33:56.543238525
+['ObsBox2Spectrum.LHC.ADT.REAL.B1V.Q7:acquisitionCorrected:acquisition'] 2022-11-22 20:33:56.543238525 2022-11-22 21:33:56.543238525
+['ObsBox2Spectrum.LHC.ADT.REAL.B1V.Q7:acquisitionCorrected:acquisition'] 2022-11-22 21:33:56.543238525 2022-11-22 21:35:49.742738525
+empty df
+8463 B2H
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1669138096849738525     None  ...                  None
+1669138097291757000     None  ...                     0
+1669138097291761000     None  ...                  None
+1669138098391752000     None  ...                     0
+1669138098391769000     None  ...                  None
+...                      ...  ...                   ...
+1669153049291722000     None  ...                     0
+1669153050391421000     None  ...                  None
+1669153050391717000     None  ...                     0
+1669153051491415000     None  ...                  None
+1669153051491712000     None  ...                     0
+
+[27170 rows x 4 columns]
+1669139463656238525       SETUP
+1669140786949738525     INJPROB
+1669145636543238525     INJPHYS
+1669151436064738525     PRERAMP
+1669151662736488525        RAMP
+1669152940795988525     FLATTOP
+1669152949742738525    BEAMDUMP
+1669152951565863525    RAMPDOWN
+Name: HX:BMODE, dtype: object 12
+2022-11-22 19:33:56.543238525 2022-11-22 21:35:49.742738525 time range
+['ObsBox2Spectrum.LHC.ADT.REAL.B2H.Q7:acquisitionCorrected:acquisition'] 2022-11-22 19:33:56.543238525 2022-11-22 20:33:56.543238525
+['ObsBox2Spectrum.LHC.ADT.REAL.B2H.Q7:acquisitionCorrected:acquisition'] 2022-11-22 20:33:56.543238525 2022-11-22 21:33:56.543238525
+['ObsBox2Spectrum.LHC.ADT.REAL.B2H.Q7:acquisitionCorrected:acquisition'] 2022-11-22 21:33:56.543238525 2022-11-22 21:35:49.742738525
+empty df
+8463 B2V
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1669138096849738525     None  ...                  None
+1669138097291757000     None  ...                     0
+1669138097291761000     None  ...                  None
+1669138098391752000     None  ...                     0
+1669138098391769000     None  ...                  None
+...                      ...  ...                   ...
+1669153049291722000     None  ...                     0
+1669153050391421000     None  ...                  None
+1669153050391717000     None  ...                     0
+1669153051491415000     None  ...                  None
+1669153051491712000     None  ...                     0
+
+[27170 rows x 4 columns]
+1669139463656238525       SETUP
+1669140786949738525     INJPROB
+1669145636543238525     INJPHYS
+1669151436064738525     PRERAMP
+1669151662736488525        RAMP
+1669152940795988525     FLATTOP
+1669152949742738525    BEAMDUMP
+1669152951565863525    RAMPDOWN
+Name: HX:BMODE, dtype: object 12
+2022-11-22 19:33:56.543238525 2022-11-22 21:35:49.742738525 time range
+['ObsBox2Spectrum.LHC.ADT.REAL.B2V.Q7:acquisitionCorrected:acquisition'] 2022-11-22 19:33:56.543238525 2022-11-22 20:33:56.543238525
+['ObsBox2Spectrum.LHC.ADT.REAL.B2V.Q7:acquisitionCorrected:acquisition'] 2022-11-22 20:33:56.543238525 2022-11-22 21:33:56.543238525
+['ObsBox2Spectrum.LHC.ADT.REAL.B2V.Q7:acquisitionCorrected:acquisition'] 2022-11-22 21:33:56.543238525 2022-11-22 21:35:49.742738525
+empty df
+prob
+prob
+prob
+prob
+INFO:py4j.clientserver:Closing down clientserver connection

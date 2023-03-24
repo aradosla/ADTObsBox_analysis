@@ -1,0 +1,86 @@
+
+>>> Loading nx2pd.py version of 24.10.2022 @ 03:17PM
+
+Assuming that your kerberos keytab is in the home folder, its name is "aradosla.keytab" and that your kerberos login is "aradosla".
+INFO:root:Executing the kinit
+INFO:root:Creating the spark instance
+Trying to determine YARN usage to make Python work correctly (conf/spark-env.sh)...
+Not using YARN
+Using virtual venv 
+PYSPARK_PYTHON == /afs/cern.ch/work/a/aradosla/private/miniforge3/bin/python
+PYSPARK_DRIVER_PYTHON == /afs/cern.ch/work/a/aradosla/private/miniforge3/bin/python
+PYSPARK_DRIVER_PYTHON_OPTS == 
+INFO:root:Spark instance created.
+8328 B1H
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1667218881892238525     None  ...                  None
+1667218882691476000     None  ...                  None
+1667218882691771000     None  ...                     0
+1667218883791471000     None  ...                  None
+1667218883791764000     None  ...                     0
+...                      ...  ...                   ...
+1667220351191699000     None  ...                     0
+1667220352291484000     None  ...                  None
+1667220352291691000     None  ...                     0
+1667220353391479000     None  ...                  None
+1667220353391686000     None  ...                     0
+
+[2677 rows x 4 columns]
+Series([], Name: HX:BMODE, dtype: object) 0
+prob B1H 8328
+8328 B1V
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1667218881892238525     None  ...                  None
+1667218882691476000     None  ...                  None
+1667218882691771000     None  ...                     0
+1667218883791471000     None  ...                  None
+1667218883791764000     None  ...                     0
+...                      ...  ...                   ...
+1667220351191699000     None  ...                     0
+1667220352291484000     None  ...                  None
+1667220352291691000     None  ...                     0
+1667220353391479000     None  ...                  None
+1667220353391686000     None  ...                     0
+
+[2677 rows x 4 columns]
+Series([], Name: HX:BMODE, dtype: object) 0
+prob B1V 8328
+8328 B2H
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1667218881892238525     None  ...                  None
+1667218882691476000     None  ...                  None
+1667218882691771000     None  ...                     0
+1667218883791471000     None  ...                  None
+1667218883791764000     None  ...                     0
+...                      ...  ...                   ...
+1667220351191699000     None  ...                     0
+1667220352291484000     None  ...                  None
+1667220352291691000     None  ...                     0
+1667220353391479000     None  ...                  None
+1667220353391686000     None  ...                     0
+
+[2677 rows x 4 columns]
+Series([], Name: HX:BMODE, dtype: object) 0
+prob B2H 8328
+8328 B2V
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1667218881892238525     None  ...                  None
+1667218882691476000     None  ...                  None
+1667218882691771000     None  ...                     0
+1667218883791471000     None  ...                  None
+1667218883791764000     None  ...                     0
+...                      ...  ...                   ...
+1667220351191699000     None  ...                     0
+1667220352291484000     None  ...                  None
+1667220352291691000     None  ...                     0
+1667220353391479000     None  ...                  None
+1667220353391686000     None  ...                     0
+
+[2677 rows x 4 columns]
+Series([], Name: HX:BMODE, dtype: object) 0
+prob B2V 8328
+prob
+prob
+prob
+prob
+INFO:py4j.clientserver:Closing down clientserver connection

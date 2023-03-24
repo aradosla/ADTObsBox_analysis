@@ -1,0 +1,19 @@
+adt_file:
+- /eos/project/l/lhc-lumimod/MD7003/ADTObsBox/data_Fill8469/B1H_Q7_20221123_15h44m45s771787us.h5
+- /eos/project/l/lhc-lumimod/MD7003/ADTObsBox/data_Fill8469/B1H_Q7_20221123_15h45m44s49303us.h5
+bunch_nb_b1:
+- 12
+- 23
+- 1067
+- 1101
+- 1114
+- 1961
+- 1989
+- 2008
+- 2855
+- 2877
+- 2902
+bunch_nb_b2:
+- all
+save_to: /eos/user/a/aradosla/FFTs/Fill8469_11/results_fft_Fill8469_11_037.parquet
+log_file: /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor/Fill8469_11/037/tree_maker.log
