@@ -79,7 +79,19 @@ if True:
   fills = config["fill_nb"]#['8496']
   for current_fill in fills:
     for beamplane in ["B1H", "B1V", "B2H", "B2V"]:
+
+        myeos=config["save_to"]
+        save_to  = f"{myeos}/plots_{current_fill}"
+        from pathlib import Path
+        Path(save_to).mkdir(parents=True, exist_ok=True)
+
+        save_to  = f"{myeos}/plots_{current_fill}/{beamplane}"
+        from pathlib import Path
+        Path(save_to).mkdir(parents=True, exist_ok=True)
+
         try:
+
+          
           print(current_fill, beamplane)
           try:
             #if True:
@@ -91,9 +103,9 @@ if True:
               t1 = pd.Timestamp(df_current[df_current['HX:BMODE'] == 'BEAMDUMP'].index[0])
             except:
               t1 = pd.Timestamp(df_current[df_current['HX:BMODE'] ==df_current['HX:BMODE'].dropna().iloc[-1]].index[-1])
-  
-            # split into 5h intervals if needed
-            print(t0, t1, "time range")
+ 
+
+             
             interval = datetime.timedelta(minutes=60*1)
             periods = []
             period_start = t0
@@ -125,7 +137,7 @@ if True:
               print('empty df')
               continue
           print(tfirst, tlast)
-          df.to_parquet(f"FFT_{current_fill}_{beamplane}_{tfirst}_{tlast}.parquet")
+          df.to_parquet(f"{save_to}/FFT_{current_fill}_{beamplane}_{tfirst}_{tlast}.parquet")
         except:
             print("prob", beamplane, current_fill)
   

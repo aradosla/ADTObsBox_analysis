@@ -10,4 +10,4 @@ tmp
 tree_maker.json
 tree_maker.log
 var
-/pool/condor/dir_18242
+/pool/condor/dir_9893

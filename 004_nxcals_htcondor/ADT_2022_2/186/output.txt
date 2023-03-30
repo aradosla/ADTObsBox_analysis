@@ -3,11 +3,14 @@ condor_exec.exe
 _condor_stderr
 _condor_stdout
 config.yaml
+error.txt
 log.txt
+output_ht.txt
+output.txt
 run_analysis.py
 run.sh
 tmp
 tree_maker.json
 tree_maker.log
 var
-/pool/condor/dir_4135
+/pool/condor/dir_26103

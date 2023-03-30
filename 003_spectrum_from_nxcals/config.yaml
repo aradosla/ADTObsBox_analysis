@@ -1,0 +1,6 @@
+fills_path: /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/003_spectrum_from_nxcals/fills.parquet
+# Sequence to load
+fill_nb:
+- '8496'
+save_to: /eos/user/a/aradosla/SWAN_projects/Analysis/ADTObsBox_analysis/results_nxcals_one
+

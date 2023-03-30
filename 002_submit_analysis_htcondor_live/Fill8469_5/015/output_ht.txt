@@ -1,0 +1,13 @@
+['/eos/project/l/lhc-lumimod/MD7003/ADTObsBox/data_Fill8469/B1H_Q7_20221123_15h00m45s798955us.h5', '/eos/project/l/lhc-lumimod/MD7003/ADTObsBox/data_Fill8469/B1H_Q7_20221123_15h01m44s76600us.h5']
+B1H
+Buffer: Turns = 65536, Bunches = 3564
+Buffer: Turns = 65536, Bunches = 3564
+Bunch slots [1067, 1114, 2008, 2855, 2902]
+Data for idx: [  160   -50 -2063 -1086 -1805]
+Bunch slots [1067, 1114, 2008, 2855, 2902]
+Data for idx: [  241   677  -402 -2207 -2127]
+                              time  ... bunches
+0 2022-11-23 14:00:45.798955+00:00  ...       5
+0 2022-11-23 14:01:44.766000+00:00  ...       5
+
+[2 rows x 5 columns]

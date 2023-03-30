@@ -1,0 +1,13 @@
+['ADTObsBox_data/B1H_Q7/29/14/B1H_Q7_20230329_14h23m05s368716us.h5', 'ADTObsBox_data/B1H_Q7/29/14/B1H_Q7_20230329_14h24m09s474130us.h5']
+B1H
+Buffer: Turns = 65536, Bunches = 3564
+Buffer: Turns = 65536, Bunches = 3564
+Bunch slots [61]
+Data for idx: [-573]
+Bunch slots [61]
+Data for idx: [-697]
+                              time  ... bunches
+0 2023-03-29 12:23:05.368716+00:00  ...       1
+0 2023-03-29 12:24:09.474130+00:00  ...       1
+
+[2 rows x 5 columns]

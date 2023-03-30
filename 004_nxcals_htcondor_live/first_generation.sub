@@ -1,0 +1,37 @@
+# This is a HTCondor submission file
+error  = error.txt
+output = output.txt
+log  = log.txt
+transfer_output_files=config.yaml
++JobFlavour  = "tomorrow"
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/000
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/000/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/001
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/001/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/002
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/002/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/003
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/003/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/004
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/004/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/005
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/005/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/006
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/006/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/007
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/007/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/008
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/008/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/009
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/009/run.sh
+queue
+#htc

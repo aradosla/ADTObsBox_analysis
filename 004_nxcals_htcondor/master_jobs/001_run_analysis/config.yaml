@@ -1,8 +1,8 @@
 fills_path: /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor/fills.parquet
 # Sequence to load
 fill_nb:
-- "8496"
+- "8508"
 # Save results
-save_to: /eos/user/a/aradosla/results_nxcals
+save_to: /eos/user/a/aradosla/SWAN_projects/Analysis/ADTObsBox/results_nxcals/run_2023
 log_file: ./log.json
 parent: ./
