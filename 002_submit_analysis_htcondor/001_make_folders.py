@@ -20,17 +20,18 @@ config=yaml.safe_load(open('config.yaml'))
 bunches_used = pd.read_parquet("bunches_used.parquet", engine = "pyarrow")
 bunches_used = bunches_used['Equally spaces'].to_list()
 print(bunches_used)
-bunch_nb_b1 = bunches_used
-
+#bunch_nb_b1 = bunches_used
+bunch_nb_b1 = [12, 1971]
 #quit()
 #bunch_nb_b1 =['all']
-bunch_tot_num = len(bunch_nb_b1)
+#bunch_tot_num = len(bunch_nb_b1)
+
 #bunch_nb_b1 = [1184, 2368, 3353] #['all']
 #bunch_nb_b1 = [712, 1421, 2131, 2842, 3353]
 #bunch_nb_b1 = [355, 712, 1066, 1421, 1776, 2131, 2486, 2842, 3197, 3353]
 #bunch_nb_b1 = [12, 178, 355, 533, 712, 888, 1066, 1242, 1421, 1596, 1776, 1954, 2131, 2309, 2486, 2787, 3019, 3197, 3353]
 bunch_nb_b2 = ['all']
-
+bunch_tot_num = len(bunch_nb_b1)
 
 
 

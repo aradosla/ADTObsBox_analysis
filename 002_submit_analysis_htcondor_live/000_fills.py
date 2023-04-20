@@ -40,7 +40,7 @@ logging.info('Spark instance created.')
 
 
 t0 = pd.Timestamp('2023-03-29 12:00:13', tz='CET')
-t1 = pd.Timestamp('2023-03-30 19:00', tz='CET')
+t1 = pd.Timestamp('2023-04-10 22:00', tz='CET')
 #t1 = pd.Timestamp.now(tz='CET')
 
 df = sk.nxcals_df(["HX:FILLN", "HX:BMODE", "LHC.BQM.B%:NO_BUNCHES"], 

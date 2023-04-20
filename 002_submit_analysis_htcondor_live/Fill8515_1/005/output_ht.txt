@@ -1,0 +1,11 @@
+['ADTObsBox_data/B1H_Q7/31/5/B1H_Q7_20230331_05h13m54s305257us.h5', 'ADTObsBox_data/B1H_Q7/31/5/B1H_Q7_20230331_05h14m52s582886us.h5']
+B1H
+Buffer: Turns = 65536, Bunches = 3564
+Buffer: Turns = 65536, Bunches = 3564
+Bunch slots []
+Data for idx: []
+Bunch slots []
+Data for idx: []
+                              time  fourier  pu beam-plane  bunches
+0 2023-03-31 03:13:54.305257+00:00      NaN  Q7        B1H        0
+0 2023-03-31 03:14:52.582886+00:00      NaN  Q7        B1H        0

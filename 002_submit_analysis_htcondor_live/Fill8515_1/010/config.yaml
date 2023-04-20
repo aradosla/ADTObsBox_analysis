@@ -1,0 +1,9 @@
+adt_file:
+- ADTObsBox_data/B1H_Q7/31/5/B1H_Q7_20230331_05h23m54s564861us.h5
+- ADTObsBox_data/B1H_Q7/31/5/B1H_Q7_20230331_05h24m52s842495us.h5
+bunch_nb_b1:
+- all
+bunch_nb_b2:
+- all
+save_to: /eos/user/a/aradosla/FFTs/Fill8515_1/results_fft_Fill8515_1_010.parquet
+log_file: /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/002_submit_analysis_htcondor_live/Fill8515_1/010/tree_maker.log

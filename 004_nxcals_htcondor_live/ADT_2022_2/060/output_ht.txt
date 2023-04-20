@@ -1,0 +1,114 @@
+
+>>> Loading nx2pd.py version of 24.10.2022 @ 03:17PM
+
+Assuming that your kerberos keytab is in the home folder, its name is "aradosla.keytab" and that your kerberos login is "aradosla".
+INFO:root:Executing the kinit
+INFO:root:Creating the spark instance
+Trying to determine YARN usage to make Python work correctly (conf/spark-env.sh)...
+Not using YARN
+Using virtual venv 
+PYSPARK_PYTHON == /afs/cern.ch/work/a/aradosla/private/miniforge3/bin/python
+PYSPARK_DRIVER_PYTHON == /afs/cern.ch/work/a/aradosla/private/miniforge3/bin/python
+PYSPARK_DRIVER_PYTHON_OPTS == 
+INFO:root:Spark instance created.
+8562 B1H
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1681064196378363525     None  ...                  None
+1681064197291567000     None  ...                  None
+1681064197291721000     None  ...                     0
+1681064198391563000     None  ...                  None
+1681064198391716000     None  ...                     0
+...                      ...  ...                   ...
+1681071608691670000     None  ...                     0
+1681071609791444000     None  ...                  None
+1681071609791669000     None  ...                     0
+1681071610891439000     None  ...                  None
+1681071610891661000     None  ...                     0
+
+[13485 rows x 4 columns]
+1681067840423988525       SETUP
+1681069519129363525     INJPROB
+1681070030522238525     PRERAMP
+1681070242541488525        RAMP
+1681071519852238525     FLATTOP
+1681071538804738525    BEAMDUMP
+1681071557483863525    BEAMDUMP
+1681071559240238525    RAMPDOWN
+Name: HX:BMODE, dtype: object 1
+prob B1H 8562
+8562 B1V
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1681064196378363525     None  ...                  None
+1681064197291567000     None  ...                  None
+1681064197291721000     None  ...                     0
+1681064198391563000     None  ...                  None
+1681064198391716000     None  ...                     0
+...                      ...  ...                   ...
+1681071608691670000     None  ...                     0
+1681071609791444000     None  ...                  None
+1681071609791669000     None  ...                     0
+1681071610891439000     None  ...                  None
+1681071610891661000     None  ...                     0
+
+[13485 rows x 4 columns]
+1681067840423988525       SETUP
+1681069519129363525     INJPROB
+1681070030522238525     PRERAMP
+1681070242541488525        RAMP
+1681071519852238525     FLATTOP
+1681071538804738525    BEAMDUMP
+1681071557483863525    BEAMDUMP
+1681071559240238525    RAMPDOWN
+Name: HX:BMODE, dtype: object 1
+prob B1V 8562
+8562 B2H
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1681064196378363525     None  ...                  None
+1681064197291567000     None  ...                  None
+1681064197291721000     None  ...                     0
+1681064198391563000     None  ...                  None
+1681064198391716000     None  ...                     0
+...                      ...  ...                   ...
+1681071608691670000     None  ...                     0
+1681071609791444000     None  ...                  None
+1681071609791669000     None  ...                     0
+1681071610891439000     None  ...                  None
+1681071610891661000     None  ...                     0
+
+[13485 rows x 4 columns]
+1681067840423988525       SETUP
+1681069519129363525     INJPROB
+1681070030522238525     PRERAMP
+1681070242541488525        RAMP
+1681071519852238525     FLATTOP
+1681071538804738525    BEAMDUMP
+1681071557483863525    BEAMDUMP
+1681071559240238525    RAMPDOWN
+Name: HX:BMODE, dtype: object 1
+prob B2H 8562
+8562 B2V
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1681064196378363525     None  ...                  None
+1681064197291567000     None  ...                  None
+1681064197291721000     None  ...                     0
+1681064198391563000     None  ...                  None
+1681064198391716000     None  ...                     0
+...                      ...  ...                   ...
+1681071608691670000     None  ...                     0
+1681071609791444000     None  ...                  None
+1681071609791669000     None  ...                     0
+1681071610891439000     None  ...                  None
+1681071610891661000     None  ...                     0
+
+[13485 rows x 4 columns]
+1681067840423988525       SETUP
+1681069519129363525     INJPROB
+1681070030522238525     PRERAMP
+1681070242541488525        RAMP
+1681071519852238525     FLATTOP
+1681071538804738525    BEAMDUMP
+1681071557483863525    BEAMDUMP
+1681071559240238525    RAMPDOWN
+Name: HX:BMODE, dtype: object 1
+prob B2V 8562
+INFO:py4j.clientserver:Closing down clientserver connection

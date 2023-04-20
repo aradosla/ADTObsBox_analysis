@@ -144,7 +144,7 @@ class cluster():
 # %%
 # Load the tree from a yaml
 if __name__=='__main__':
-    root = tree_maker.tree_from_json('tree_maker_Fill8469_11.json')
+    root = tree_maker.tree_from_json('tree_maker_Fill8469_2.json')
     if root.has_been('completed'):
         print('All descendants of root are completed!')
     else:

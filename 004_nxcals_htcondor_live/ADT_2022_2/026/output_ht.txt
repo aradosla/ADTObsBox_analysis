@@ -1,0 +1,94 @@
+
+>>> Loading nx2pd.py version of 24.10.2022 @ 03:17PM
+
+Assuming that your kerberos keytab is in the home folder, its name is "aradosla.keytab" and that your kerberos login is "aradosla".
+INFO:root:Executing the kinit
+INFO:root:Creating the spark instance
+Trying to determine YARN usage to make Python work correctly (conf/spark-env.sh)...
+Not using YARN
+Using virtual venv 
+PYSPARK_PYTHON == /afs/cern.ch/work/a/aradosla/private/miniforge3/bin/python
+PYSPARK_DRIVER_PYTHON == /afs/cern.ch/work/a/aradosla/private/miniforge3/bin/python
+PYSPARK_DRIVER_PYTHON_OPTS == 
+INFO:root:Spark instance created.
+8593 B1H
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1681530163250863525     None  ...                  None
+1681530163491444000     None  ...                  None
+1681530163491671000     None  ...                     0
+1681530164591440000     None  ...                  None
+1681530164591666000     None  ...                     0
+...                      ...  ...                   ...
+1681534242391736000     None  ...                     0
+1681534243491439000     None  ...                  None
+1681534243491734000     None  ...                     0
+1681534244591437000     None  ...                  None
+1681534244591732000     None  ...                     0
+
+[7412 rows x 4 columns]
+1681531483122488525      SETUP
+1681532253341238525    INJPROB
+1681532766137238525    INJPHYS
+Name: HX:BMODE, dtype: object 3
+empty df
+8593 B1V
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1681530163250863525     None  ...                  None
+1681530163491444000     None  ...                  None
+1681530163491671000     None  ...                     0
+1681530164591440000     None  ...                  None
+1681530164591666000     None  ...                     0
+...                      ...  ...                   ...
+1681534242391736000     None  ...                     0
+1681534243491439000     None  ...                  None
+1681534243491734000     None  ...                     0
+1681534244591437000     None  ...                  None
+1681534244591732000     None  ...                     0
+
+[7412 rows x 4 columns]
+1681531483122488525      SETUP
+1681532253341238525    INJPROB
+1681532766137238525    INJPHYS
+Name: HX:BMODE, dtype: object 3
+empty df
+8593 B2H
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1681530163250863525     None  ...                  None
+1681530163491444000     None  ...                  None
+1681530163491671000     None  ...                     0
+1681530164591440000     None  ...                  None
+1681530164591666000     None  ...                     0
+...                      ...  ...                   ...
+1681534242391736000     None  ...                     0
+1681534243491439000     None  ...                  None
+1681534243491734000     None  ...                     0
+1681534244591437000     None  ...                  None
+1681534244591732000     None  ...                     0
+
+[7412 rows x 4 columns]
+1681531483122488525      SETUP
+1681532253341238525    INJPROB
+1681532766137238525    INJPHYS
+Name: HX:BMODE, dtype: object 3
+empty df
+8593 B2V
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1681530163250863525     None  ...                  None
+1681530163491444000     None  ...                  None
+1681530163491671000     None  ...                     0
+1681530164591440000     None  ...                  None
+1681530164591666000     None  ...                     0
+...                      ...  ...                   ...
+1681534242391736000     None  ...                     0
+1681534243491439000     None  ...                  None
+1681534243491734000     None  ...                     0
+1681534244591437000     None  ...                  None
+1681534244591732000     None  ...                     0
+
+[7412 rows x 4 columns]
+1681531483122488525      SETUP
+1681532253341238525    INJPROB
+1681532766137238525    INJPHYS
+Name: HX:BMODE, dtype: object 3
+empty df
+INFO:py4j.clientserver:Closing down clientserver connection

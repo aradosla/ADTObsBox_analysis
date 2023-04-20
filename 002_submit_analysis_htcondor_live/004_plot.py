@@ -38,7 +38,7 @@ bunch_nb = 1
 #bunch_nb = 11
 #bunch_nb = str(20)
 #bunch_nb = 'all'
-fill_nb = 8510
+fill_nb = 8568
 for filename in [f"FFT_Fill{fill_nb}_Q7_B1H{bunch_nb}.parquet"]:#,
                  #f"FFT_Fill{fill_nb}_Q10_B1V.parquet",
                 # f"FFT_Fill{fill_nb}_Q10_B2H.parquet",
@@ -67,7 +67,7 @@ for filename in [f"FFT_Fill{fill_nb}_Q7_B1H{bunch_nb}.parquet"]:#,
   if my_df['HX:FILLN'].iloc[0] == None:
     my_df['HX:FILLN'].iloc[0] = my_df['HX:FILLN'].dropna().iloc[0]
   my_df['HX:FILLN'] = my_df['HX:FILLN'].ffill(axis=0)
-  #my_df = my_df[my_df["HX:FILLN"] == '8508']
+  my_df = my_df[my_df["HX:FILLN"] == 8568]
 
 
 

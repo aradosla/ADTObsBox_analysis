@@ -1,0 +1,88 @@
+/eos/user/a/aradosla/SWAN_projects/Analysis/ADTObsBox_analysis/results_nxcals/run_2023/plots_8611/B1H/FFT_8611_B1H_2023-04-16 22:51:02.266307_2023-04-16 22:51:02.266307.parquet
+                           ObsBox2Spectrum.LHC.ADT.REAL.B1H.Q7:acquisitionCorrected:acquisition
+2023-04-16 22:51:02.266307  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+                              HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+2023-04-16 20:36:45.466613525     None  ...                  None
+2023-04-16 20:36:46.191479000     None  ...                  None
+2023-04-16 20:36:46.191685000     None  ...                     0
+2023-04-16 20:36:47.291474000     None  ...                  None
+2023-04-16 20:36:47.291666000     None  ...                     0
+...                                ...  ...                   ...
+2023-04-17 04:14:27.791712000     None  ...                     0
+2023-04-17 04:14:28.891475000     None  ...                  None
+2023-04-17 04:14:28.891706000     None  ...                     0
+2023-04-17 04:14:29.991471000     None  ...                  None
+2023-04-17 04:14:29.991702000     None  ...                     0
+
+[49939 rows x 4 columns]
+2023-04-16 23:22:35.165738525
+2023-04-16 23:28:47.898738525
+2023-04-16 23:50:05.864863525
+prob ADJUST
+prob STABLE
+/eos/user/a/aradosla/SWAN_projects/Analysis/ADTObsBox_analysis/results_nxcals/run_2023/plots_8611/B2H/FFT_8611_B2H_2023-04-16 22:51:02.245679_2023-04-16 22:51:02.245679.parquet
+                           ObsBox2Spectrum.LHC.ADT.REAL.B2H.Q7:acquisitionCorrected:acquisition
+2023-04-16 22:51:02.245679  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+                              HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+2023-04-16 20:36:45.466613525     None  ...                  None
+2023-04-16 20:36:46.191479000     None  ...                  None
+2023-04-16 20:36:46.191685000     None  ...                     0
+2023-04-16 20:36:47.291474000     None  ...                  None
+2023-04-16 20:36:47.291666000     None  ...                     0
+...                                ...  ...                   ...
+2023-04-17 04:14:27.791712000     None  ...                     0
+2023-04-17 04:14:28.891475000     None  ...                  None
+2023-04-17 04:14:28.891706000     None  ...                     0
+2023-04-17 04:14:29.991471000     None  ...                  None
+2023-04-17 04:14:29.991702000     None  ...                     0
+
+[49939 rows x 4 columns]
+2023-04-16 23:22:35.165738525
+2023-04-16 23:28:47.898738525
+2023-04-16 23:50:05.864863525
+prob ADJUST
+prob STABLE
+/eos/user/a/aradosla/SWAN_projects/Analysis/ADTObsBox_analysis/results_nxcals/run_2023/plots_8611/B1V/FFT_8611_B1V_2023-04-16 22:51:02.277427_2023-04-16 22:51:02.277427.parquet
+                           ObsBox2Spectrum.LHC.ADT.REAL.B1V.Q7:acquisitionCorrected:acquisition
+2023-04-16 22:51:02.277427  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+                              HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+2023-04-16 20:36:45.466613525     None  ...                  None
+2023-04-16 20:36:46.191479000     None  ...                  None
+2023-04-16 20:36:46.191685000     None  ...                     0
+2023-04-16 20:36:47.291474000     None  ...                  None
+2023-04-16 20:36:47.291666000     None  ...                     0
+...                                ...  ...                   ...
+2023-04-17 04:14:27.791712000     None  ...                     0
+2023-04-17 04:14:28.891475000     None  ...                  None
+2023-04-17 04:14:28.891706000     None  ...                     0
+2023-04-17 04:14:29.991471000     None  ...                  None
+2023-04-17 04:14:29.991702000     None  ...                     0
+
+[49939 rows x 4 columns]
+2023-04-16 23:22:35.165738525
+2023-04-16 23:28:47.898738525
+2023-04-16 23:50:05.864863525
+prob ADJUST
+prob STABLE
+/eos/user/a/aradosla/SWAN_projects/Analysis/ADTObsBox_analysis/results_nxcals/run_2023/plots_8611/B2V/FFT_8611_B2V_2023-04-16 22:51:02.256392_2023-04-16 22:51:02.256392.parquet
+                           ObsBox2Spectrum.LHC.ADT.REAL.B2V.Q7:acquisitionCorrected:acquisition
+2023-04-16 22:51:02.256392  [nan, nan, nan, nan, nan, nan, nan, nan, nan, ...                  
+                              HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+2023-04-16 20:36:45.466613525     None  ...                  None
+2023-04-16 20:36:46.191479000     None  ...                  None
+2023-04-16 20:36:46.191685000     None  ...                     0
+2023-04-16 20:36:47.291474000     None  ...                  None
+2023-04-16 20:36:47.291666000     None  ...                     0
+...                                ...  ...                   ...
+2023-04-17 04:14:27.791712000     None  ...                     0
+2023-04-17 04:14:28.891475000     None  ...                  None
+2023-04-17 04:14:28.891706000     None  ...                     0
+2023-04-17 04:14:29.991471000     None  ...                  None
+2023-04-17 04:14:29.991702000     None  ...                     0
+
+[49939 rows x 4 columns]
+2023-04-16 23:22:35.165738525
+2023-04-16 23:28:47.898738525
+2023-04-16 23:50:05.864863525
+prob ADJUST
+prob STABLE

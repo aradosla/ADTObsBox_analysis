@@ -1,0 +1,94 @@
+
+>>> Loading nx2pd.py version of 24.10.2022 @ 03:17PM
+
+Assuming that your kerberos keytab is in the home folder, its name is "aradosla.keytab" and that your kerberos login is "aradosla".
+INFO:root:Executing the kinit
+INFO:root:Creating the spark instance
+Trying to determine YARN usage to make Python work correctly (conf/spark-env.sh)...
+Not using YARN
+Using virtual venv 
+PYSPARK_PYTHON == /afs/cern.ch/work/a/aradosla/private/miniforge3/bin/python
+PYSPARK_DRIVER_PYTHON == /afs/cern.ch/work/a/aradosla/private/miniforge3/bin/python
+PYSPARK_DRIVER_PYTHON_OPTS == 
+INFO:root:Spark instance created.
+8607 B1H
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1681615193630363525     None  ...                  None
+1681615194191476000     None  ...                  None
+1681615194191746000     None  ...                     0
+1681615195291470000     None  ...                  None
+1681615195291742000     None  ...                     0
+...                      ...  ...                   ...
+1681628292991503000     None  ...                  None
+1681628292991769000     None  ...                     0
+1681628293706238525  CYCLING  ...                  None
+1681628294091499000     None  ...                  None
+1681628294091767000     None  ...                     0
+
+[23824 rows x 4 columns]
+1681615210627238525    INJPROB
+1681617230280613525     NOBEAM
+1681628293706238525    CYCLING
+Name: HX:BMODE, dtype: object 0
+prob B1H 8607
+8607 B1V
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1681615193630363525     None  ...                  None
+1681615194191476000     None  ...                  None
+1681615194191746000     None  ...                     0
+1681615195291470000     None  ...                  None
+1681615195291742000     None  ...                     0
+...                      ...  ...                   ...
+1681628292991503000     None  ...                  None
+1681628292991769000     None  ...                     0
+1681628293706238525  CYCLING  ...                  None
+1681628294091499000     None  ...                  None
+1681628294091767000     None  ...                     0
+
+[23824 rows x 4 columns]
+1681615210627238525    INJPROB
+1681617230280613525     NOBEAM
+1681628293706238525    CYCLING
+Name: HX:BMODE, dtype: object 0
+prob B1V 8607
+8607 B2H
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1681615193630363525     None  ...                  None
+1681615194191476000     None  ...                  None
+1681615194191746000     None  ...                     0
+1681615195291470000     None  ...                  None
+1681615195291742000     None  ...                     0
+...                      ...  ...                   ...
+1681628292991503000     None  ...                  None
+1681628292991769000     None  ...                     0
+1681628293706238525  CYCLING  ...                  None
+1681628294091499000     None  ...                  None
+1681628294091767000     None  ...                     0
+
+[23824 rows x 4 columns]
+1681615210627238525    INJPROB
+1681617230280613525     NOBEAM
+1681628293706238525    CYCLING
+Name: HX:BMODE, dtype: object 0
+prob B2H 8607
+8607 B2V
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1681615193630363525     None  ...                  None
+1681615194191476000     None  ...                  None
+1681615194191746000     None  ...                     0
+1681615195291470000     None  ...                  None
+1681615195291742000     None  ...                     0
+...                      ...  ...                   ...
+1681628292991503000     None  ...                  None
+1681628292991769000     None  ...                     0
+1681628293706238525  CYCLING  ...                  None
+1681628294091499000     None  ...                  None
+1681628294091767000     None  ...                     0
+
+[23824 rows x 4 columns]
+1681615210627238525    INJPROB
+1681617230280613525     NOBEAM
+1681628293706238525    CYCLING
+Name: HX:BMODE, dtype: object 0
+prob B2V 8607
+INFO:py4j.clientserver:Closing down clientserver connection

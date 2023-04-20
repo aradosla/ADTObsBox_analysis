@@ -1,0 +1,7 @@
+fills_path: /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_10live/fills.parquet
+# Sequence to load
+fill_nb:
+- '8599'
+save_to: /eos/user/a/aradosla/SWAN_projects/Analysis/ADTObsBox_analysis/results_nxcals10Hz/run_2023
+log_file: /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_10live/ADT_2022_2/050/tree_maker.log
+parent: ./

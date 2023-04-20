@@ -3,8 +3,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os
 
+bunch_nb = 2
 #bunch_nb = 3
-bunch_nb = 11
+#bunch_nb = 11
 #bunch_nb = 5
 #bunch_nb = 'all'
 fill_nb = 8469

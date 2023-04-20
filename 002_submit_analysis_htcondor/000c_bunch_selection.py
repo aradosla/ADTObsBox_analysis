@@ -16,7 +16,7 @@ last_dir = dirs[-1]
 config_file_path = os.path.join(path, last_dir, 'config.yaml')
 print(config_file_path)
 #print(last_dir)
-tot_num = 100
+tot_num = 2
 
 #with open('Fill8469_3/037/config.yaml','r') as fid:
 with open(config_file_path,'r') as fid:

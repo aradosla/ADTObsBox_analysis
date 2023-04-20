@@ -17,7 +17,7 @@ path = 'ADTObsBox_data'
 
 # Simplify the search of files
 #day  = "*" # in CET
-day  = "30" # in CET
+day  = "10" # in CET
 ##time = "*" 
 time = "*" 
 #beamplane = "*"#"*"
@@ -30,7 +30,7 @@ if sample_files:
   sample_freq = 60 #in sec
 
 # Fill nb
-fill_nb = 8510
+fill_nb = 8568
 
 
 save_to = f"filenames_Fill{fill_nb}.parquet" 
@@ -38,7 +38,7 @@ save_to = f"filenames_Fill{fill_nb}.parquet"
 # If true, will search in fill.parquet for t1-t2. otherwise, user can define t1-t2 manually
 read_fill_info = True
 
-mysymbolic_link = f"sshfs aradosla@cs-ccr-dev1.cern.ch:/nfs/cfc-sr4-adtobs2buf/obsbox/slow {path} -o IdentityFile=/afs/cern.ch/user/a/aradosla/.ssh/id_rsa"
+mysymbolic_link = f"sshfs aradosla@cs-ccr-dev1.cern.ch:/nfs/cfc-sr4-adtobs2buf/obsbox/slow {path} # -o IdentityFile=/afs/cern.ch/user/a/aradosla/.ssh/id_rsa"
 #mysymbolic_link = f"sshfs aradosla@cs-ccr-dev1.cern.ch:/nfs/cfc-sr4-adtobs2buf/obsbox/slow {path}"
 file_format = f"{path}/{beamplane}_{pu}/{day}/{time}/*"
 
@@ -58,7 +58,7 @@ if read_fill_info:
   df_current = df_fills[df_fills['HX:FILLN'] == str(fill_nb)]
   #print(df_current)
   #quit()
-  t1 = pd.Timestamp(df_current[df_current['HX:BMODE'] == 'INJPHYS'].index[0], tz='UTC')
+  t1 = pd.Timestamp(df_current[df_current['HX:BMODE'] == mode[0]].index[0], tz='UTC')
  
   try:
     t2 = pd.Timestamp(df_current[df_current['HX:BMODE'] == 'BEAMDUMP'].index[0], tz='UTC')

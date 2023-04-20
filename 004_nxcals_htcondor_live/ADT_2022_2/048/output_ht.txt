@@ -1,0 +1,130 @@
+
+>>> Loading nx2pd.py version of 24.10.2022 @ 03:17PM
+
+Assuming that your kerberos keytab is in the home folder, its name is "aradosla.keytab" and that your kerberos login is "aradosla".
+INFO:root:Executing the kinit
+INFO:root:Creating the spark instance
+Trying to determine YARN usage to make Python work correctly (conf/spark-env.sh)...
+Not using YARN
+Using virtual venv 
+PYSPARK_PYTHON == /afs/cern.ch/work/a/aradosla/private/miniforge3/bin/python
+PYSPARK_DRIVER_PYTHON == /afs/cern.ch/work/a/aradosla/private/miniforge3/bin/python
+PYSPARK_DRIVER_PYTHON_OPTS == 
+INFO:root:Spark instance created.
+8615 B1H
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1681781674716363525     None  ...                  None
+1681781674891540000     None  ...                  None
+1681781674891708000     None  ...                     0
+1681781675991535000     None  ...                  None
+1681781675991703000     None  ...                     0
+...                      ...  ...                   ...
+1681791029191741000     None  ...                     0
+1681791030291463000     None  ...                  None
+1681791030291736000     None  ...                     0
+1681791031391460000     None  ...                  None
+1681791031391731000     None  ...                     0
+
+[16995 rows x 4 columns]
+1681783222782363525       SETUP
+1681784406295988525     INJPROB
+1681784978481863525     INJPHYS
+1681786304759363525     PRERAMP
+1681786467056488525        RAMP
+1681787744851363525     FLATTOP
+1681787912575863525     SQUEEZE
+1681790527362988525      ADJUST
+1681790829181488525    BEAMDUMP
+1681790830926488525    RAMPDOWN
+Name: HX:BMODE, dtype: object 2
+['ObsBox2Spectrum.LHC.ADT.REAL.B1H.Q7:acquisitionCorrected:acquisition'] 2023-04-18 02:29:38.481863525 2023-04-18 03:29:38.481863525
+['ObsBox2Spectrum.LHC.ADT.REAL.B1H.Q7:acquisitionCorrected:acquisition'] 2023-04-18 03:29:38.481863525 2023-04-18 04:07:09.181488525
+empty df
+8615 B1V
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1681781674716363525     None  ...                  None
+1681781674891540000     None  ...                  None
+1681781674891708000     None  ...                     0
+1681781675991535000     None  ...                  None
+1681781675991703000     None  ...                     0
+...                      ...  ...                   ...
+1681791029191741000     None  ...                     0
+1681791030291463000     None  ...                  None
+1681791030291736000     None  ...                     0
+1681791031391460000     None  ...                  None
+1681791031391731000     None  ...                     0
+
+[16995 rows x 4 columns]
+1681783222782363525       SETUP
+1681784406295988525     INJPROB
+1681784978481863525     INJPHYS
+1681786304759363525     PRERAMP
+1681786467056488525        RAMP
+1681787744851363525     FLATTOP
+1681787912575863525     SQUEEZE
+1681790527362988525      ADJUST
+1681790829181488525    BEAMDUMP
+1681790830926488525    RAMPDOWN
+Name: HX:BMODE, dtype: object 2
+['ObsBox2Spectrum.LHC.ADT.REAL.B1V.Q7:acquisitionCorrected:acquisition'] 2023-04-18 02:29:38.481863525 2023-04-18 03:29:38.481863525
+['ObsBox2Spectrum.LHC.ADT.REAL.B1V.Q7:acquisitionCorrected:acquisition'] 2023-04-18 03:29:38.481863525 2023-04-18 04:07:09.181488525
+empty df
+8615 B2H
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1681781674716363525     None  ...                  None
+1681781674891540000     None  ...                  None
+1681781674891708000     None  ...                     0
+1681781675991535000     None  ...                  None
+1681781675991703000     None  ...                     0
+...                      ...  ...                   ...
+1681791029191741000     None  ...                     0
+1681791030291463000     None  ...                  None
+1681791030291736000     None  ...                     0
+1681791031391460000     None  ...                  None
+1681791031391731000     None  ...                     0
+
+[16995 rows x 4 columns]
+1681783222782363525       SETUP
+1681784406295988525     INJPROB
+1681784978481863525     INJPHYS
+1681786304759363525     PRERAMP
+1681786467056488525        RAMP
+1681787744851363525     FLATTOP
+1681787912575863525     SQUEEZE
+1681790527362988525      ADJUST
+1681790829181488525    BEAMDUMP
+1681790830926488525    RAMPDOWN
+Name: HX:BMODE, dtype: object 2
+['ObsBox2Spectrum.LHC.ADT.REAL.B2H.Q7:acquisitionCorrected:acquisition'] 2023-04-18 02:29:38.481863525 2023-04-18 03:29:38.481863525
+['ObsBox2Spectrum.LHC.ADT.REAL.B2H.Q7:acquisitionCorrected:acquisition'] 2023-04-18 03:29:38.481863525 2023-04-18 04:07:09.181488525
+empty df
+8615 B2V
+                    HX:BMODE  ... LHC.BQM.B2:NO_BUNCHES
+1681781674716363525     None  ...                  None
+1681781674891540000     None  ...                  None
+1681781674891708000     None  ...                     0
+1681781675991535000     None  ...                  None
+1681781675991703000     None  ...                     0
+...                      ...  ...                   ...
+1681791029191741000     None  ...                     0
+1681791030291463000     None  ...                  None
+1681791030291736000     None  ...                     0
+1681791031391460000     None  ...                  None
+1681791031391731000     None  ...                     0
+
+[16995 rows x 4 columns]
+1681783222782363525       SETUP
+1681784406295988525     INJPROB
+1681784978481863525     INJPHYS
+1681786304759363525     PRERAMP
+1681786467056488525        RAMP
+1681787744851363525     FLATTOP
+1681787912575863525     SQUEEZE
+1681790527362988525      ADJUST
+1681790829181488525    BEAMDUMP
+1681790830926488525    RAMPDOWN
+Name: HX:BMODE, dtype: object 2
+['ObsBox2Spectrum.LHC.ADT.REAL.B2V.Q7:acquisitionCorrected:acquisition'] 2023-04-18 02:29:38.481863525 2023-04-18 03:29:38.481863525
+['ObsBox2Spectrum.LHC.ADT.REAL.B2V.Q7:acquisitionCorrected:acquisition'] 2023-04-18 03:29:38.481863525 2023-04-18 04:07:09.181488525
+empty df
+INFO:py4j.clientserver:Closing down clientserver connection

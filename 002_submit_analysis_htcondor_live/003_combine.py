@@ -7,7 +7,7 @@ import os
 bunch_nb = 1
 #bunch_nb = 5
 #bunch_nb = 'all'
-fill_nb = 8510
+fill_nb = 8568
 path = f'/eos/user/a/aradosla/FFTs/Fill{fill_nb}_{bunch_nb}'
 filenames = os.listdir(path)
 filenames = [i for i in filenames if i.endswith('parquet')]

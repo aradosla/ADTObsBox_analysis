@@ -34,4 +34,124 @@ queue
 initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/009
 executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/009/run.sh
 queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/010
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/010/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/011
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/011/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/012
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/012/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/013
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/013/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/014
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/014/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/015
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/015/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/016
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/016/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/017
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/017/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/018
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/018/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/019
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/019/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/020
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/020/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/021
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/021/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/022
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/022/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/023
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/023/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/024
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/024/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/025
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/025/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/026
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/026/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/027
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/027/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/028
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/028/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/029
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/029/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/030
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/030/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/031
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/031/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/032
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/032/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/033
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/033/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/034
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/034/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/035
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/035/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/036
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/036/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/037
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/037/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/038
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/038/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/039
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/039/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/040
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/040/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/041
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/041/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/042
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/042/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/043
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/043/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/044
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/044/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/045
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/045/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/046
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/046/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/047
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/047/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/048
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/048/run.sh
+queue
+initialdir = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/049
+executable = /afs/cern.ch/work/a/aradosla/private/ADTObsBox_analysis/004_nxcals_htcondor_live/ADT_2022_2/049/run.sh
+queue
 #htc
